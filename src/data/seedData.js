@@ -1,4 +1,4 @@
-import { v4 } from './utils/helpers';
+import { v4 } from '../utils/helpers';
 
 // ============ CATEGORIES ============
 export const seedCategories = [
