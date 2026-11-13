@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discussions
+    url: https://github.com/your-username/stockwise-inventory-intelligence/discussions
+    about: Ask questions, share ideas, and connect with other StockWise users and contributors.
+  - name: 🔒 Security Advisories
+    url: https://github.com/your-username/stockwise-inventory-intelligence/security/advisories
+    about: Report sensitive vulnerabilities privately.

@@ -1,8 +1,22 @@
 {
-  "name": "inventory---stock-intelligence",
+  "name": "stockwise-inventory-intelligence",
+  "version": "1.0.0",
+  "description": "Enterprise-grade SaaS platform for Inventory & Stock Intelligence with realistic supply chain workflows, analytics, and persistent storage",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "author": "Abir",
+  "license": "MIT",
+  "keywords": [
+    "inventory-management",
+    "stock-intelligence",
+    "react",
+    "redux-toolkit",
+    "tailwindcss",
+    "recharts",
+    "enterprise-saas",
+    "supply-chain",
+    "warehouse-management"
+  ],
   "scripts": {
     "dev": "node ./node_modules/vite/bin/vite.js",
     "build": "node ./node_modules/vite/bin/vite.js build",
