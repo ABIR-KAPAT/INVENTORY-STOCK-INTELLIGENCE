@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Provider, useDispatch } from 'react-redux';
 import { Toaster } from 'react-hot-toast';
 import store from './store';
@@ -106,7 +106,7 @@ function generateAlerts(dispatch, getState) {
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <HashRouter>
         <DataInitializer>
           <Toaster
             position="top-right"
@@ -134,7 +134,7 @@ function App() {
             </Route>
           </Routes>
         </DataInitializer>
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
   );
 }

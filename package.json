@@ -23,6 +23,9 @@
     "lint": "oxlint",
     "preview": "node ./node_modules/vite/bin/vite.js preview"
   },
+  "engines": {
+    "node": ">=20.12.0"
+  },
   "dependencies": {
     "@hookform/resolvers": "^7.0.6",
     "@reduxjs/toolkit": "^2.14.0",
